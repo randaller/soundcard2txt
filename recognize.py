@@ -9,7 +9,7 @@ recognizer = sr.Recognizer()
 pa = pyaudio.PyAudio()
 
 parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-parser.add_argument('--lang', type=str, default='ru-RU',
+parser.add_argument('--lang', type=str, default='en-US',
                     help='language to recognize, en-US, ru-RU, fi-FI or any other supported')
 parser.add_argument('--buf', type=int, default=200,
                     help='buffer size to recognize')
